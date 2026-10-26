@@ -1,0 +1,9 @@
+matplotlib==3.11.2
+numpy==2.5.2
+onnx==1.23.2
+onnxruntime==1.31.0
+opencv-python-headless==5.0.0.93
+pandas==3.1.0
+pillow==12.3.0
+torch==2.14.1+cpu
+torchvision==0.29.1+cpu

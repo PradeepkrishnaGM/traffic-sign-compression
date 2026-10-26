@@ -1,0 +1,10 @@
+.venv/
+data/
+checkpoints/
+cache/
+logs/
+*.pt
+*.onnx
+__pycache__/
+checkpoints_v1/
+*.npy

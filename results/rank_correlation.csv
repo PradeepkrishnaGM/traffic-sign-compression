@@ -1,0 +1,4 @@
+group,n_variants,spearman_clean_vs_corr
+all_variants,12,0.5524475524475525
+teacher_family,6,1.0
+student_family,6,0.7714285714285715
