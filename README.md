@@ -64,6 +64,9 @@ scripts/run_all.sh                           # about 5 to 8 hours on a 6-core CP
 ```
 All tunable numbers are in `src/config.py`. Steps, timings and checks are in `docs/EXPERIMENT_LOG.md`.
 
+## Trained models
+All 12 variants from the results table are in the [v1.0 release](https://github.com/PradeepkrishnaGM/traffic-sign-compression/releases/tag/v1.0) as ONNX files, together with the FP32 PyTorch weights of the teacher, the student and the distilled student. `SHA256SUMS.txt` lists the checksums. The INT8 models were quantized with `reduce_range=True` (see "What went wrong along the way").
+
 ## Credits
 - GTSRB: J. Stallkamp, M. Schlipsing, J. Salmen, C. Igel, "Man vs. computer: Benchmarking machine learning algorithms for traffic sign recognition", Neural Networks, 2012. The dataset is not redistributed here; it is downloaded through `torchvision.datasets.GTSRB`.
 - The teacher starts from torchvision's ImageNet-pretrained ResNet-18 weights (K. He et al., "Deep Residual Learning for Image Recognition", CVPR 2016).
